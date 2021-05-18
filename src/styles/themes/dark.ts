@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
   title: 'dark',
-  color: {
+  colors: {
     primary: '#1B1F38',
     secondary: '#252A48',
     tertiary: '#313862',
