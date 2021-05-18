@@ -1,12 +1,17 @@
-import React from 'react'
+import { Grid } from './styles'
+import Aside from '../Aside'
+import Content from '../Content'
+import MainHeader from '../MainHeader'
 
-import { Container } from './styles'
+import React from 'react'
 
 const Layout: React.FC = () => {
   return (
-    <Container>
-      <h1>Layout</h1>
-    </Container>
+    <Grid>
+      <MainHeader />
+      <Aside />
+      <Content />
+    </Grid>
   )
 }
 
